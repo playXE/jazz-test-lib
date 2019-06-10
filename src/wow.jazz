@@ -1,3 +1,7 @@
 fun hello_fun(): int {
     return 42;
 }
+
+fun is_life(s: StringRef): bool {
+    return s == "42";
+}
